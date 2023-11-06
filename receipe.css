@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+}
+
+.para{
+    background-image: url(ASSESTS/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    line-height: 20px;
+}
+h1{
+    text-align: center;
+    
+}
+.content p{
+    margin-top:30px;
+    font-size: 20px;
+    float: left;
+    width: 70%;
+    text-align: justify;
+    line-height: 40px;
+}
+.para li{
+    float: left;
+    width: 60%;
+    margin-top: 30px;
+}
+.content{
+    margin-left: 20px;
+    position: relative;
+    top:40px
+}
+.content h1{
+    margin-left: 20px;
+    position: relative;
+    top:10px;
+    text-transform: uppercase;
+    
+}
+.fl{
+    display: flex;
+    width: 90%;
+    font-size: 20px;
+    justify-content: space-between;
+    
+}
+.fl-2{
+    position: relative;
+    left: -220px;
+}
+.fl-1{
+    margin-left: -27px;
+}
+

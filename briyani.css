@@ -1,0 +1,121 @@
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+body{
+    background-image: url(ASSESTS/receipe\ bg.jpg);
+}
+header a{
+    text-decoration: none;
+    color:black;
+}
+header{
+    display: flex;
+    padding: 5px;
+    background-color: lightgrey;
+    box-shadow: 3px 3px rgb(162, 162, 162,0.2);
+    height: 30px;
+}
+header .logo{
+    font-size: 30px;
+    font-weight: bolder;
+   
+}
+
+.logo{
+    flex: 2;
+    
+}
+nav{
+    flex: 2;
+    display: flex;
+    
+}
+nav a{
+    flex: 1;
+    text-align: center;
+    margin-top: 4px;
+   
+}
+nav a:hover{
+    color: red;
+}
+
+img{
+    width: 30%;
+    height: 80vh;
+    margin-top: 10px;
+    margin-left: 8px;
+    box-shadow: 5px 3px rgb(72, 71, 71);
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: left;
+    margin-left: 20px;
+}
+h2{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.content{
+    float: right;
+    width: 67%;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+.para{
+    margin-top: 40px;
+}
+.fl-2{
+    position: relative;
+    left: 70px;
+
+} 
+.fl{
+    display: flex;
+}
+fieldset{
+    width: 60%;
+    position: relative;
+    left: 420px;
+    top:-210px
+}
+legend{
+    text-align: center;
+    font-weight: bold;
+    
+}
+li{
+    font-size: 19px;
+    text-align: justify;
+}
+.content p{
+    margin-top: 40px;
+    margin-right: 27px;
+}
+.para{
+    overflow: hidden;
+    /* background-image: url(ASSESTS/bri\ bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 200vh; */
+    
+}
+.instruction{
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    top:-190px;
+    float: left;
+    width: 55%;
+    text-align: justify;
+}
+body{
+    margin: 0%;
+}
+iframe{
+    margin-left: 50px;
+}
